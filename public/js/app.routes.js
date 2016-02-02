@@ -7,7 +7,7 @@ angular.module('routerRoutes', ['ngRoute'])
 
 		// route for the home page
 		.when('/', {
-			templateUrl : 'view/pages/home.html',
+			templateUrl : 'views/pages/home.html',
 			controller  : 'homeController',
 			controllerAs: 'home'
 		})
@@ -21,7 +21,7 @@ angular.module('routerRoutes', ['ngRoute'])
 
 		//route for the contact page
 		.when('/contact', {
-			templateUrl  : 'views/page/contact.html',
+			templateUrl  : 'views/pages/contact.html',
 			controller   : 'contactController',
 			controllerAs : 'contact'
 		});
