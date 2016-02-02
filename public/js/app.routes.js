@@ -1,5 +1,5 @@
 // inject ngRoute for all routing needs
-angular.module('routerRoutes', ['ngRoute'])
+angular.module('routerRoutes', ['ngRoute', 'ngAnimate'])
 
 // configure our routerRoutes
 .config(function($routeProvider, $locationProvider) {
